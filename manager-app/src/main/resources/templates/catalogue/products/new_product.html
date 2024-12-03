@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Новый товар &ndash; Shop</title>
+</head>
+<body>
+
+<a data-th-href="@{/catalogue/products/list}">&larr; Back to products list</a>
+
+<h1>Новый товар</h1>
+
+<div th:if="*{errors}">
+  <h2>Допущены ошибки:</h2>
+  <ul>
+    <li th:each="error : *{errors}" th:dtext="error"></li>
+  </ul>
+</div>
+
+<form method="post" data-th-action="@{/catalogue/products/create}">
+  <label>
+    Название: <br>
+    <input type="text" name="title" th:value="*{request?.title}">
+  </label><br>
+
+  <label>
+    Описание: <br>
+    <textarea name="details" th:text="*{request?.details}"></textarea>
+  </label><br>
+
+    <button type="submit">Create product</button>
+</form>
+
+</body>
+</html>
