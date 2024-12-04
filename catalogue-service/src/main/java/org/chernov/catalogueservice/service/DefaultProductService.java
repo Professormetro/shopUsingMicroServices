@@ -46,7 +46,7 @@ public class DefaultProductService implements ProductService {
 
     }
 
-    public void deleteProduct(Product product) {
-        productRepository.deleteProductById(product.getId());
+    public void deleteProduct(int productId) {
+        productRepository.deleteProductById(productId);
     }
 }

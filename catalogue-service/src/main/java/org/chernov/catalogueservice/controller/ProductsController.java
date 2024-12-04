@@ -24,12 +24,16 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @RestController
-@RequiredArgsConstructor
 @RequestMapping("catalogue-api/products")
 public class ProductsController {
 
     private final ProductService productService;
     private final MessageSource messageSource;
+
+    public ProductsController(MessageSource messageSource, ProductService productService) {
+        this.messageSource = messageSource;
+        this.productService = productService;
+    }
 
     @GetMapping
     public List<Product> findProducts(){

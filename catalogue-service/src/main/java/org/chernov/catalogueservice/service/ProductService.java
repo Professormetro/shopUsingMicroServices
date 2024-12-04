@@ -13,5 +13,5 @@ public interface ProductService {
     Optional<Product> findProduct(Integer id);
 
     void updateProduct(Integer id, UpdateProductRequest updateProductRequest);
-    void deleteProduct(Product product);
+    void deleteProduct(int productId);
 }

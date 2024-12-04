@@ -4,8 +4,8 @@ package org.chernov.catalogueservice.entity;
 import lombok.*;
 
 @Data
-@Getter
 @Setter
+@Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder

@@ -1,8 +1,7 @@
-package org.chernov.catalogueservice.dto;
+package org.chernov.catalogueservice.repository;
 
 
 import org.chernov.catalogueservice.entity.Product;
-import org.chernov.catalogueservice.repository.ProductRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;
