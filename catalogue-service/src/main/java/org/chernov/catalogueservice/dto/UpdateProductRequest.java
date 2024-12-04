@@ -1,4 +1,4 @@
-package org.chernov.managerapp.dto;
+package org.chernov.catalogueservice.dto;
 
 
 import jakarta.validation.constraints.Size;

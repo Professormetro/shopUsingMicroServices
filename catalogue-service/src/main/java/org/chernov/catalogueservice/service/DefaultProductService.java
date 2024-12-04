@@ -1,11 +1,11 @@
-package org.chernov.managerapp.service;
+package org.chernov.catalogueservice.service;
 
 
 import lombok.RequiredArgsConstructor;
-import org.chernov.managerapp.dto.CreateProductRequest;
-import org.chernov.managerapp.dto.UpdateProductRequest;
-import org.chernov.managerapp.entity.Product;
-import org.chernov.managerapp.repository.ProductRepository;
+import org.chernov.catalogueservice.dto.CreateProductRequest;
+import org.chernov.catalogueservice.dto.UpdateProductRequest;
+import org.chernov.catalogueservice.entity.Product;
+import org.chernov.catalogueservice.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

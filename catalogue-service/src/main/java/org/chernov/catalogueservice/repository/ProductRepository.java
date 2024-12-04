@@ -1,7 +1,6 @@
-package org.chernov.managerapp.repository;
+package org.chernov.catalogueservice.repository;
 
-import org.chernov.managerapp.dto.UpdateProductRequest;
-import org.chernov.managerapp.entity.Product;
+import org.chernov.catalogueservice.entity.Product;
 
 import java.util.List;
 import java.util.Optional;

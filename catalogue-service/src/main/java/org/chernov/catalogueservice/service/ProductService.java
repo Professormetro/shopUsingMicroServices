@@ -1,8 +1,8 @@
-package org.chernov.managerapp.service;
+package org.chernov.catalogueservice.service;
 
-import org.chernov.managerapp.dto.CreateProductRequest;
-import org.chernov.managerapp.dto.UpdateProductRequest;
-import org.chernov.managerapp.entity.Product;
+import org.chernov.catalogueservice.dto.CreateProductRequest;
+import org.chernov.catalogueservice.dto.UpdateProductRequest;
+import org.chernov.catalogueservice.entity.Product;
 
 import java.util.List;
 import java.util.Optional;

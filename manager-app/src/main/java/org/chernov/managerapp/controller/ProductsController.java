@@ -4,7 +4,7 @@ package org.chernov.managerapp.controller;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.chernov.managerapp.dto.CreateProductRequest;
-import org.chernov.managerapp.entity.Product;
+import org.chernov.catalogueservice.repository.entity.Product;
 import org.chernov.managerapp.service.ProductService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,7 +12,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Controller

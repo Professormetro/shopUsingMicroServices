@@ -1,4 +1,4 @@
-package org.chernov.managerapp.entity;
+package org.chernov.catalogueservice.entity;
 
 
 import lombok.*;
